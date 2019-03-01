@@ -22,3 +22,11 @@ feign:
     enabled: true
 
 
+logging:
+  level:
+    com:
+      dtdx:
+        hystrix:
+          hystrixfeignconsumer:
+            client:
+              ProviderClient: debug

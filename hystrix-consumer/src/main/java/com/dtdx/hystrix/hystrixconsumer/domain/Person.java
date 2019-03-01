@@ -1,4 +1,4 @@
-package com.dtdx.hystrix.hystrixprovider.domain;
+package com.dtdx.hystrix.hystrixconsumer.domain;
 
 import java.io.Serializable;
 
@@ -17,6 +17,7 @@ public class Person implements Serializable {
     private String address;
 
     private Integer age;
+
 
     public String getName() {
         return name;
@@ -42,5 +43,12 @@ public class Person implements Serializable {
         this.age = age;
     }
 
+    public Person(String name,Integer age, String address ) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
 
+    public Person() {
+    }
 }
