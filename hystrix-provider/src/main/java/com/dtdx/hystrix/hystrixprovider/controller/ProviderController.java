@@ -20,7 +20,7 @@ public class ProviderController {
     private String port;
 
     @RequestMapping("/hello")
-    public Object hello(){
+    public String hello(){
         return "Success connect : "+port;
     }
 }

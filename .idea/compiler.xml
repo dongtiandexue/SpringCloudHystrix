@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="hystrix-consumer" />
+        <module name="hystrix-feign-consumer" />
         <module name="hystrix-provider" />
         <module name="SpringCloudHystrix" />
       </profile>

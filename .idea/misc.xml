@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-provider/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-feign-consumer/pom.xml" />
       </list>
     </option>
   </component>
