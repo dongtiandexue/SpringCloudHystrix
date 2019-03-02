@@ -1,0 +1,27 @@
+#端口
+server:
+  port: 9300
+
+#eureka注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#服务名
+spring:
+  application:
+    name: consumer-hystrix-dashboard
+
+#指定feign支持hystrix
+feign:
+  hystrix:
+    enabled: true
+
+#设置监控当前服务的全部接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
