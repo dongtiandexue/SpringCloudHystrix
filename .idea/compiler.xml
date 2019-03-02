@@ -9,6 +9,7 @@
         <module name="consumer-hystrix-dashboard" />
         <module name="eureka-server" />
         <module name="hystrix-consumer" />
+        <module name="hystrix-dashboard-turbine" />
         <module name="hystrix-feign-consumer" />
         <module name="hystrix-provider" />
         <module name="SpringCloudHystrix" />
